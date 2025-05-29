@@ -1,9 +1,7 @@
-var nacionalidade = 'brasileiro';
-
-console.log('Você é um cidadão ' + nacionalidade)
+var nacionalidade = 'japonês';
 
 if (nacionalidade == 'brasileiro') {
-    console.log('Brasileiro');
+    console.log('Você é um cidadão ' + nacionalidade);
 }else {
-    console.log('estrangeiro')
+    console.log('Você é um cidadão estrangeiro');
 }

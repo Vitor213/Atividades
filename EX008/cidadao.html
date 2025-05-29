@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cidadania</title>
+</head>
+<body>
+    <h1>Bem vindo</h1>
+    <p>Este é o sistema de cidadania.</p>
+    <input type="text" name="xpessoa" id="xpessoa" placeholder="Digite sua cidadania">
+   <input type="button" value="Verificar" onclick="verificarCidadania()">
+   <div id="resultado"></div>
+   <script>
+    function verificarCidadania() {
+        var cidPessoa = document.getElementById('xpessoa');
+        var res = document.getElementById('resultado');
+        var cidadania = cidPessoa.value;
+
+        if (cidadania = 'Brasileiro') {
+            res.innerHTML = '<p>Você é brasileiro.</p>';
+        } else {
+            res.innerHTML = '<p>Você é estrangeiro.</p>';
+        }
+    }
+
+   </script>
+</body>
+</html>
