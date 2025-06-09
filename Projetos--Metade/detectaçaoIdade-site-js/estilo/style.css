@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(69, 182, 144, 0.486);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+section{
+    padding: 10px;
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+}
+footer{
+    text-align: center;
+}
