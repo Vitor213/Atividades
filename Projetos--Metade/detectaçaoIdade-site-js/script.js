@@ -1,4 +1,4 @@
-const { createElement } = require("react")
+
 
 function verificar(){
     var data = new Date ()
@@ -12,32 +12,29 @@ function verificar(){
       var fsex = document.getElementsByName('sexchose')
       var idade = ano - fano.value 
       var genero = ''
-      var img = document.createElement('img')
-      img.setAttribute('id, foto')
+      
 
       if (fsex[0].checked){
-        genero = Mulher
+        genero = 'Mulher'
 
-        if(idade >=0 && idade > 10){
+        if(idade >=0 && idade < 10){
             // Criança
-             } else if ( idade >= 20){
+             } else if ( idade < 21){
             //jovem
-            img.setAttribute('src, fotos/jovem-mulher.jpg ')
-                } else if (idade >= 50){
+                } else if (idade < 50){
             //adulto
                 } else {
             //idoso
                 }
 
         } else if (fsex[1].checked){
-        genero = Homem
+        genero = 'Homem'
 
-            if(idade >=0 && idade > 10){
+            if(idade >=0 && idade < 10){
             // Criança 
-             } else if ( idade >= 20){
+             } else if ( idade < 21){
             //jovem
-            img.setAttribute('src, fotos/jovem-homen.jpg ')
-             } else if (idade >= 50){
+             } else if (idade < 50){
             //adulto
              } else {
             //idoso
@@ -45,7 +42,9 @@ function verificar(){
         
       } 
         res.innerHTML = `Detectamos um ${genero} de ${idade} anos.`
+        res.style.textAlign = 'center'
+
  
 }
-res.innerHTML = `Detectamos um ${genero} de ${idade} anos.`
+
 }
