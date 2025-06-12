@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.521);
+}
+section{
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.507);
+    margin: auto;
+    justify-content: center;
+    height: 200px;
+    width: 700px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+}
