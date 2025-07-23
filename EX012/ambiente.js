@@ -7,4 +7,6 @@ num.sort()
     console.log(`a posicao ${fila} tem o valor ${num[fila]}`)
 }
 */
-
+for(let fila in num){
+    console.log(`a posicao ${fila} tem o valor ${num[fila]}`)
+}
