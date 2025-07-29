@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #dbb7b7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+main {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: auto;
+}
+select#flist {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
